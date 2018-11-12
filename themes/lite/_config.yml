@@ -11,7 +11,7 @@ background:
 
   # Custom Background Picture
   enable_picture: true
-  url: /static/images/DmZ2TO_U8AU86hS.jpg
+  url: /static/images/70858371_p0.jpg
   css_size: cover
   css_position: 50%
 
@@ -30,7 +30,7 @@ menu:
   Home: true
   Archives: true
   Categories: false
-  Tags: false
+  Tags: true
 
   # Custom Menu
   # '/index' can be omitted

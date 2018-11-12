@@ -1,14 +1,18 @@
 title: CentOS-7 安装Oracle
 author: John Doe
-tags: []
+tags:
+  - 笔记
+  - Oracle
+  - 安装教程
 categories: []
 date: 2018-11-04 08:33:00
 ---
 > 由于客户生产环境Oracle需要做交叉备份及归档备份，且自己Oracle水平又不高，不敢直接在生产环境动手。但公司的集成环境也有很多项目要跑，所以干脆自己虚拟机装一个测。因为虚拟机已有装好的ubuntu，前两天就直接在ubuntu上装了。但是中间遇到了不小的阻碍，主要是某些依赖拉不到，而ubuntu的依赖安装又和yum冲突，所以昨天决定直接不用ubuntu，改用CentOS-7，总算是顺利完成了。详细过程记录如下。
 
 ---
-[TOC]
+<!-- toc -->
 
+<!-- more -->
 #### 0. 安装JDK1.8
 
 ###### 0.1 删除预装的jdk
